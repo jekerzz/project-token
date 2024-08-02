@@ -18,7 +18,7 @@ const main = async () => {
         const metadata = {
             name: "Solana Jekerzz Coin ",
             symbol: "JEKERCOIN",
-            uri: "https://raw.githubusercontent.com/solana-developers/program-examples/new-examples/tokens/tokens/.assets/spl-token.json",
+            uri: "https://raw.githubusercontent.com/jekerzz/project-token/main/metadata.json",
         };
         
         const mint = generateSigner(umi);
